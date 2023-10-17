@@ -2,7 +2,7 @@ services:
   web:
     build: app/aspnetapp
     ports:
-      - 80:80
+      - 8081:80
   db:
     environment:
       ACCEPT_EULA: "Y"
